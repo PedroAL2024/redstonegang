@@ -1,0 +1,74 @@
+body {
+    color: rgb(0, 0, 0);
+    background: rgb(27, 0, 0);
+    margin: 2px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+}
+
+.chamada {
+    background: rgb(255, 0, 0);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    height: 240px;
+}
+
+.clipes-aleatorios{
+    gap: 500px;
+     width: 1300px;height: 1500px;
+     border: 5px solid #020000;
+     cursor: pointer;
+ 
+ }
+ 
+ .clipes{
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+ }
+ 
+ .clipes-aleatorios img {
+ opacity: 0.5;
+ object-fit: cover;
+     transition: 1s ease;
+ 
+ }
+ .clipes-aleatorios img:hover {
+  opacity: 1.0;
+  border: 5px solid rgb(255, 0, 0);
+     transform: scale(1.4);
+ }
+
+.clipes h2 {
+color: rgb(255, 255, 255);
+}
+
+.icone{
+   text-align: right;
+    max-width: 90%;
+    text-underline-offset: 20px;
+}
